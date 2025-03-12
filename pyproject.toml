@@ -5,3 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tts_diet_b"
 version = "0.0.1"
+
+[tool.setuptools.packages.find]
+include = ["tts_diet_b"]
+exclude = ["test_tts_diet_b*"]

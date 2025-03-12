@@ -21,5 +21,5 @@ programmers while still allowing for an internal dictionary based representation
 ### Contents
 * `tts_diet_b` The subdirectory that defines the `tts_diet_b` package.
 * `test_tts_diet_b` The subdirectory that contains data and code required for testing `tts_diet_b`.
-* `pyproject.toml` Standard file for distributing `tts_diet_b`. 
+* `pyproject.toml` Standard file for distributing `tts_diet_b`. Use `python -m build` to create the .whl file.
 
